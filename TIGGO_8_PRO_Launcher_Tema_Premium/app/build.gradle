@@ -1,0 +1,13 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'br.com.maf.carlauncher'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'br.com.maf.carlauncher'
+        minSdk 29
+        targetSdk 29
+        versionCode 3
+        versionName '1.0-android10-test'
+    }
+}
